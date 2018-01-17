@@ -1,8 +1,9 @@
-# require 'pry'
+require 'pry'
 
 def my_collect(array)
     i = 0
     first_names = []
+    binding.pry
     while i < array.length
       first_names << yield(array[i])
       i+=1
