@@ -11,4 +11,4 @@ def my_collect(array)
 end
 
 binding.pry
-my_collect(array){|name| name.split(" ").first}
+my_collect(array){ |name| name.split(" ").first}
