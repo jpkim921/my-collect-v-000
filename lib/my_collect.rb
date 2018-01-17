@@ -7,3 +7,5 @@ def my_collect(array)
     end
     first_names
 end
+
+my_collect(array){|name| name.split(" ").first}
