@@ -1,3 +1,5 @@
+require 'pry'
+
 def my_collect(array)
     i = 0
     # first_names = []
@@ -5,7 +7,8 @@ def my_collect(array)
       yield(array[i])
       i+=1
     end
-    
+
 end
 
+binding.pry
 my_collect(array){|name| name.split(" ").first}
